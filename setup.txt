@@ -1,0 +1,56 @@
+Detailed Manual Steps to Execute Servlet:
+
+1. Set Up Environment:
+
+Install Eclipse IDE.
+Install Apache Tomcat.
+
+2. Create Project:
+
+Open Eclipse.
+File > New > Dynamic Web Project.
+Name the project Program8 > Next > Next > Check web.xml deployment descriptor > Finish
+
+3. Create Servlet:
+
+Java Resources > src/main/java ->  Right-click  -> New > Servlet.
+Name the servlet GreetingServlet
+Name the Java package & Class name > Next > Next > Check doPost & doGet (if required in the program) >  Finish
+Place the generated code in the provided GreetingServlet.java File.
+
+* Save the File.
+
+4. Create HTML:
+
+main > webapp ->  Right-click  -> New > HTML File.
+Name the File Name >  Next > Finish 
+Place the generated code in the provided html File.
+
+* Save the File.
+
+5. Configure web.xml:
+
+webapp > /WEB-INF/ > web.xml->
+ In web.xml File > source 
+Name the file web.xml.
+Add the provided web.xml content.
+
+* Save the File.
+
+6. Deploy Application:
+
+Right-click the project -> Run As > Run on Server.
+Choose Apache Tomcat > Next > add the project > Finish.
+
+7. Access and Test:
+
+Open a web browser.
+Go to http://localhost:8080/GreetingApp/greet.
+Interact with the form.
+
+This will guide you through creating a servlet that displays a greeting message and accepts a username from the client.
+
+Reference: https://www.javatpoint.com/creating-servlet-in-eclipse-ide
+
+
+
